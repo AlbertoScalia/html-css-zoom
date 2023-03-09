@@ -11,6 +11,14 @@ body {
 
 
 /* Header */
+
+header {
+    width: 100vw;
+    z-index: 1;
+    position: relative;
+    height: 50px;
+}
+
 .menu {
     color: white;
     position: absolute;
@@ -30,4 +38,47 @@ body {
 
 .menu-icon {
     margin-right: 3px;
+}
+
+
+/* Main */
+
+main {
+    width: 100vw;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: calc(100vh - 155px);
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.account {
+    background-image: url(https://picsum.photos/160/100);
+    background-size: cover;
+    position: relative;
+    width: 160px;
+    height: 100px;
+    margin: 5px 2px;
+}
+
+.info {
+    background-color: rgba(140, 140, 140, 0.5);
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    font-size: 9px;
+}
+
+.microfono {
+    margin-right: 2px;
 }
