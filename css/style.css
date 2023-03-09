@@ -52,7 +52,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    width: 80%;
+    width: 90%;
     height: calc(100vh - 155px);
     margin: 0 auto;
     margin-top: 20px;
@@ -63,8 +63,8 @@ main {
     background-image: url(https://picsum.photos/160/100);
     background-size: cover;
     position: relative;
-    width: 160px;
-    height: 100px;
+    width: 190px;
+    height: 110px;
     margin: 5px 2px;
 }
 
@@ -76,7 +76,7 @@ main {
     bottom: 0;
     left: 0;
     padding: 5px;
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .microfono {
