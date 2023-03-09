@@ -9,6 +9,10 @@ body {
     background-color: black;
 }
 
+.menu, .menu-items, .info, .footer-items {
+    cursor: pointer;
+}
+
 
 /* Header */
 
@@ -16,7 +20,7 @@ header {
     width: 100vw;
     z-index: 1;
     position: relative;
-    height: 50px;
+    height: 40px;
 }
 
 .menu {
@@ -44,7 +48,9 @@ header {
 /* Main */
 
 main {
-    width: 100vw;
+    width: 95%;
+    margin: 0 auto;
+    overflow: auto;
 }
 
 .box {
@@ -52,18 +58,16 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    width: 90%;
-    height: calc(100vh - 155px);
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    height: calc(100vh - 170px);
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .account {
-    background-image: url(https://picsum.photos/160/100);
+    background-image: url(https://picsum.photos/190/110);
     background-size: cover;
     position: relative;
-    width: 190px;
+    width: 180px;
     height: 110px;
     margin: 5px 2px;
 }
@@ -81,4 +85,67 @@ main {
 
 .microfono {
     margin-right: 2px;
+}
+
+
+/* Footer */
+
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-bar {
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 60px;
+    width: 100vw;
+}
+
+.footer-section {
+    display: flex;
+    padding-top: 5px;
+}
+
+.footer-section:last-of-type {
+    padding-top: 0px;
+}
+
+.footer-items {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.icona {
+    font-size: 17px;
+}
+
+.didascalia {
+    font-size: 10px;
+    margin: 7px 0;
+}
+
+.freccetta {
+    font-size: 8px;
+    margin: 2px 15px;
+}
+
+#share-screen {
+    margin-right: 15px;
+}
+
+#share-screen .icona {
+    color: green !important;
+}
+
+#end-meeting {
+    color: red;
+    background-color: #4A4A4A;
 }
