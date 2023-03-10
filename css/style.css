@@ -20,7 +20,7 @@ header {
     width: 100vw;
     z-index: 1;
     position: relative;
-    height: 40px;
+    height: 50px;
 }
 
 .menu {
@@ -35,7 +35,7 @@ header {
     float: left;
     display: flex;
     padding: 5px;
-    font-size: 15px;
+    font-size: 10px;
     margin: 5px;
     border-radius: 3px;
 }
@@ -58,9 +58,8 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    height: calc(100vh - 170px);
-    margin-top: 40px;
-    margin-bottom: 20px;
+    height: calc(100vh - 110px);
+
 }
 
 .account {
